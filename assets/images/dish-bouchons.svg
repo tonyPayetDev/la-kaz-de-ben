@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#5d4e37"/>
+  
+  <!-- Bouchons gratinés -->
+  <ellipse cx="200" cy="180" rx="90" ry="45" fill="#fff"/>
+  <ellipse cx="200" cy="175" rx="80" ry="40" fill="#f5f5dc"/>
+  
+  <!-- Fromage gratiné -->
+  <ellipse cx="200" cy="170" rx="70" ry="35" fill="#ffd700" opacity="0.8"/>
+  <path d="M160 160 Q180 150 200 160 Q220 150 240 160" stroke="#ff8c00" stroke-width="3" fill="none"/>
+  <path d="M170 175 Q190 165 210 175" stroke="#ff8c00" stroke-width="3" fill="none"/>
+  
+  <!-- Bouchons -->
+  <ellipse cx="180" cy="170" rx="20" ry="10" fill="#8b7355"/>
+  <ellipse cx="220" cy="168" rx="18" ry="9" fill="#a0826d"/>
+  
+  <!-- Herbes -->
+  <circle cx="200" cy="155" r="3" fill="#228b22"/>
+  <circle cx="190" cy="160" r="2" fill="#228b22"/>
+  <circle cx="210" cy="162" r="3" fill="#228b22"/>
+  
+  <!-- Décor -->
+  <circle cx="360" cy="40" r="40" fill="#c9a227" opacity="0.12"/>
+</svg>

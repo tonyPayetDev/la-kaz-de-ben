@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#2c1810"/>
+  
+  <!-- Chef silhouette -->
+  <ellipse cx="200" cy="280" rx="80" ry="15" fill="#000" opacity="0.3"/>
+  
+  <!-- Corps -->
+  <rect x="150" y="150" width="100" height="130" rx="20" fill="#fff"/>
+  <rect x="150" y="150" width="100" height="40" rx="10" fill="#1a1a1a"/>
+  
+  <!-- Toque -->
+  <rect x="160" y="80" width="80" height="70" rx="5" fill="#fff"/>
+  <rect x="155" y="145" width="90" height="15" rx="3" fill="#fff"/>
+  
+  <!-- Visage -->
+  <circle cx="200" cy="110" r="35" fill="#fdbf60"/>
+  <circle cx="188" cy="105" r="3" fill="#1a1a1a"/>
+  <circle cx="212" cy="105" r="3" fill="#1a1a1a"/>
+  <path d="M190 120 Q200 128 210 120" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  
+  <!-- Mains avec plat -->
+  <circle cx="140" cy="200" r="15" fill="#fdbf60"/>
+  <circle cx="260" cy="200" r="15" fill="#fdbf60"/>
+  
+  <!-- Plat -->
+  <ellipse cx="200" cy="200" rx="50" ry="15" fill="#c0c0c0"/>
+  <ellipse cx="200" cy="196" rx="45" ry="12" fill="#f5f5f5"/>
+  
+  <!-- Émanations -->
+  <path d="M180 180 Q185 170 180 160" stroke="#c9a227" stroke-width="2" opacity="0.6" fill="none"/>
+  <path d="M200 175 Q200 165 200 155" stroke="#c9a227" stroke-width="2" opacity="0.6" fill="none"/>
+  <path d="M220 180 Q215 170 220 160" stroke="#c9a227" stroke-width="2" opacity="0.6" fill="none"/>
+</svg>

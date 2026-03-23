@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d2314"/>
+      <stop offset="50%" style="stop-color:#5a3a1f"/>
+      <stop offset="100%" style="stop-color:#2a1810"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5a2b"/>
+      <stop offset="100%" style="stop-color:#654321"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Ambiance chaleureuse terrasse -->
+  <ellipse cx="400" cy="500" rx="350" ry="80" fill="#000" opacity="0.3"/>
+  
+  <!-- Table en bois -->
+  <rect x="200" y="400" width="400" height="20" fill="#5c3a1e"/>
+  <rect x="180" y="420" width="440" height="60" fill="url(#table)"/>
+  
+  <!-- Assiettes et plats créoles -->
+  <ellipse cx="300" cy="390" rx="50" ry="15" fill="#f5f5f5"/>
+  <ellipse cx="300" cy="385" rx="40" ry="12" fill="#e85a4f"/>
+  <ellipse cx="400" cy="385" rx="55" ry="18" fill="#f5f5f5"/>
+  <circle cx="400" cy="380" r="30" fill="#228b22" opacity="0.8"/>
+  <ellipse cx="500" cy="390" rx="50" ry="15" fill="#f5f5f5"/>
+  <ellipse cx="500" cy="385" rx="40" ry="12" fill="#ffcc00"/>
+  
+  <!-- Verres -->
+  <rect x="580" y="340" width="25" height="60" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <rect x="585" y="350" width="15" height="30" fill="rgba(201,162,39,0.6)"/>
+  
+  <rect x="620" y="350" width="25" height="50" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <rect x="625" y="360" width="15" height="25" fill="rgba(220,20,60,0.5)"/>
+  
+  <!-- Bougies -->
+  <rect x="150" y="360" width="15" height="40" fill="#f5deb3"/>
+  <ellipse cx="157" cy="355" rx="8" ry="15" fill="#ff6b35" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.7;0.9" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Plantes tropicales -->
+  <path d="M50 450 Q30 350 60 300 Q80 250 100 300 Q130 350 120 450" fill="#228b22" opacity="0.8"/>
+  <path d="M100 450 Q120 380 90 340 Q70 300 50 340 Q30 380 40 450" fill="#32cd32" opacity="0.7"/>
+  <path d="M700 450 Q720 350 680 300 Q660 260 640 300 Q610 350 630 450" fill="#228b22" opacity="0.8"/>
+  
+  <!-- Guirlandes lumineuses -->
+  <path d="M0 100 Q200 150 400 100 Q600 50 800 100" stroke="#c9a227" stroke-width="3" fill="none" opacity="0.8"/>
+  <circle cx="100" cy="125" r="8" fill="#ffeb3b">
+    <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="120" r="8" fill="#ffeb3b">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="80" r="8" fill="#ffeb3b">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="105" r="8" fill="#ffeb3b">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Texte décoratif -->
+  <text x="400" y="200" font-family="Georgia, serif" font-size="48" fill="#c9a227" text-anchor="middle" opacity="0.9">La Kaz de Ben</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5c3a1e"/>
+      <stop offset="100%" style="stop-color:#3d2314"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#cardBg)"/>
+  
+  <!-- Plat emblématique - Carry poulet -->
+  <ellipse cx="200" cy="180" rx="100" ry="40" fill="#f5f5f5"/>
+  <ellipse cx="200" cy="175" rx="90" ry="35" fill="#ffcc00"/>
+  
+  <!-- Poulet -->
+  <ellipse cx="170" cy="170" rx="25" ry="15" fill="#d2691e"/>
+  <ellipse cx="210" cy="175" rx="22" ry="12" fill="#cd853f"/>
+  <ellipse cx="240" cy="168" rx="20" ry="14" fill="#d2691e"/>
+  
+  <!-- Riz -->
+  <circle cx="160" cy="165" r="4" fill="#fff"/>
+  <circle cx="175" cy="160" r="3" fill="#fff"/>
+  <circle cx="190" cy="168" r="4" fill="#fff"/>
+  <circle cx="225" cy="165" r="3" fill="#fff"/>
+  <circle cx="250" cy="170" r="4" fill="#fff"/>
+  
+  <!-- Herbes -->
+  <path d="M180 160 Q185 150 190 160" stroke="#228b22" stroke-width="2" fill="none"/>
+  <path d="M220 165 Q225 155 230 165" stroke="#228b22" stroke-width="2" fill="none"/>
+  
+  <!-- Fond décoratif -->
+  <circle cx="50" cy="50" r="80" fill="#c9a227" opacity="0.1"/>
+  <circle cx="350" cy="250" r="60" fill="#c9a227" opacity="0.1"/>
+</svg>
